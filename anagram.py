@@ -12,7 +12,7 @@ def isAnagram(original,test):
                     return True
                 return False
             original= raw_input("enter first dtring:")
-            test= raw_input("enter second string:")
+            test = raw_input("enter second string:")
             print
             print ("%s and %s are %s") %(original,test,"anagrams" if (isAnagram(original, test)) else "not anagrams")
             
